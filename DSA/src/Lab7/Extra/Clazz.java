@@ -14,8 +14,7 @@ public class Clazz {
     }
 
     public void loadStudents(String fileName) throws IOException {
-        // phần này e lấy path là Lab6\\Extra\\students.txt bị lỗi The system cannot find the file specified nên phải để đường dẫn dài ạ
-        File file = new File("C:\\Users\\huynh\\OneDrive\\Desktop\\WorkSpace\\DSA\\src\\Lab7\\Extra\\students.txt");
+        File file = new File("students.txt");
 
         BufferedReader reader = new BufferedReader(new FileReader(file));
         String line = null;
